@@ -1,0 +1,12 @@
+import React from 'react';
+import './Home.css';
+
+function Home(){
+return(
+    <>
+        <h1 className="titulo">Home</h1>
+        <img src="https://i.imgur.com/UNWwaKN.jpeg" alt="imagem tela inical" className="img"/>
+    </>
+);
+}
+export default Home;
